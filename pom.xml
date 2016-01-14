@@ -210,8 +210,8 @@
 				<executions>
 					<execution>
 						<goals>
-							<goal>clean</goal>
-							<goal>check</goal>
+							<!-- <goal>clean</goal>
+							<goal>check</goal> -->
 						</goals>
 					</execution>
 				</executions>
