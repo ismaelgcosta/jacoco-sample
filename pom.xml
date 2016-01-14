@@ -39,6 +39,8 @@
 		
 		<sonar.jacoco.reportPath>${jacoco.ut.execution.data.file}/jacoco-unit.exec</sonar.jacoco.reportPath>
 		<sonar.jacoco.itReportPath>${jacoco.it.execution.data.file}/jacoco-it.exec</sonar.jacoco.itReportPath>
+		<coverage.reports.dir>${basedir}/target/coverage-reports</coverage.reports.dir>
+		<sonar.java.codeCoveragePlugin>jacoco</sonar.java.codeCoveragePlugin>
 
 	</properties>
 
